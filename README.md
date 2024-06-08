@@ -38,10 +38,9 @@ The image above has been tested using https://validator.w3.org/#validate_by_inpu
 The image above have been tested using http://jigsaw.w3.org/css-validator/ and shows errors found in my style.css file. 
 
 # JavaScript 
-![](image-2.png)
+![image](https://github.com/Beaniee2/e-commerce/assets/144044444/b00edd08-d82a-4f13-ba3c-234756cb96b1)
 
 The image above has been tested using https://codebeautify.org/jsvalidate# and shows errors found in my java.js file. 
-
 
 All errors have been checked and eddited as needed. 
 
