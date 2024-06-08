@@ -27,7 +27,6 @@
 #head {
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 16px;
-    float: center;
     text-align: center;
   }
   
@@ -42,7 +41,6 @@
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 14px;
     text-align: center;
-    float: center;
     position: relative;
     margin-bottom: auto;
     height: 70px;
@@ -104,7 +102,7 @@ i{
   /* List styling */
   ul li {
       list-style: none;
-      float: center;
+      text-align: center; 
       display: inline;
   }
 
