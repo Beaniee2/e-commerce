@@ -1,0 +1,341 @@
+ /*Font import from google fonts*/
+ @import url(https://fonts.google.com/specimen/Kumbh+Sans);
+  
+ /* styles for desktop devices */
+@media only screen and (min-width: 1440px) {
+   body {
+     width: 80%;
+     margin: auto;
+   }
+ }
+ /* styles for tablet devices */
+ @media only screen and (min-width: 768px) and (max-width: 991px) {
+   body {
+     width: 90%;
+     margin: auto;
+   }
+ }
+ /* styles for mobile devices */
+ @media only screen and (max-width: 375px) {
+   body {
+     width: 100%;
+     margin: 0;
+   }
+ }
+
+/* Title on all pages */
+#head {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 16px;
+    float: center;
+    text-align: center;
+  }
+  
+  /*Sizing of middle section on all pages */
+  #main {
+    height: 600px;
+    width: 100%;
+  }
+/* footer on all pages */
+#footer-content {
+    background-color: rgb(245, 242, 239); 
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    float: center;
+    position: relative;
+    margin-bottom: auto;
+    height: 70px;
+    width: 100%;
+}
+
+  /* navigation menu*/
+  #menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: orange;
+    padding: 15px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+i{
+    cursor: pointer;
+  }
+  
+  /*Basket*/
+.basket {
+    position: relative;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  .cartAmount {
+    position: absolute;
+    top: -15px;
+    right: -10px;
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+  }
+  
+  /*unvisited link*/
+  a:link {
+    text-decoration: none;
+    color: black;
+  }
+  /*Visited link*/
+  a:visited {
+    color: black;
+  }
+  /*hover over a link */
+  a:hover {
+    font-size: 25px;
+    color: red;
+    font-weight: bold;
+  }
+  /* List styling */
+  ul li {
+      list-style: none;
+      float: center;
+      display: inline;
+  }
+
+  
+  /* Image display */
+  .firstimg{
+    display: inline-table;
+    table-layout: auto;
+    float: left;
+  }
+
+  .shop {
+    float: right;
+  }
+
+  /* The Modal (background) */
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 60%;
+    height: 60%;
+    overflow: auto;
+    background-color: black;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: black;
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    max-width: 1200px;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #999;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* Hide the slides by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Number text (1/4) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  img.hover-shadow {
+    transition: 0.3s;
+  }
+  
+  .hover-shadow:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+@media (max-width: 500px) {
+    .main {
+        grid-template-columns: repeat(1, 223px);
+      }
+}
+  
+  .item {
+    border: 2px;
+    border-radius: 4px;
+    }
+  
+  .details {
+    padding: 10px;
+   font-family: 'kumbh Sans', sans-serif;
+  }
+  
+  .price-quantity {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #sale {
+    font-size: small;
+    font-weight: bold;
+    color: orange;
+  }
+  .button {
+    display: flex;
+    flex-direction: row;
+    gap: 8px; 
+    font-size: 20px;
+  }
+  
+  .bi-dash-lg {
+    color: red; 
+  }
+  
+  .bi-plus-lg {
+    color: green; 
+  }
+
+  /*style rules for label & button on basket page*/
+.text-center {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .homebutton, .checkout, .remove {
+    background-color: orange;
+    color: black;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family: 'kumbh Sans', sans-serif;
+  }
+  
+  .enlarge:hover {
+    width: 350px;
+    height: 350px;
+    cursor: pointer;
+  }
+  
+  .bi-x-lg {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /*Style for basket page*/
+  .shopping-basket {
+    display: grid;
+    grid-template-rows: repeat(1);
+    gap: 30px;
+    justify-content: center;
+    font-family: 'kumbh Sans', sans-serif;
+  }
+  
+  /*styles for basket*/
+  .basket-item {
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex; 
+    font-family: 'kumbh Sans', sans-serif;
+  }
+  
+  .title-price-x {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'kumbh Sans', sans-serif;
+  }
+  
+  .title-price {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    font-family: 'kumbh Sans', sans-serif;
+  }
+  
+  .price {
+    background-color: black;
+    color: white;
+    border-radius: 7px;
+    padding: 3px 6px;
+    font-family: 'kumbh Sans', sans-serif;
+  }
+
+  .contactinfo {
+    font-family: 'kumbh Sans', sans-serif;
+    font-weight: 100;
+    text-align: center;
+  }
+
+  .email:hover{
+    color: orange;
+    font-size: 20px;
+  }
+
+  .faq {
+    font-family: 'kumbh Sans', sans-serif;
+    font-weight: 100;
+    text-align: center;
+  }
