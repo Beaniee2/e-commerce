@@ -26,7 +26,8 @@ Users should be able to:
 ### Screenshot
 
 # HTML testing - 
-![alt text](image.png)
+![image](https://github.com/Beaniee2/e-commerce/assets/144044444/4817c8a5-700e-45ad-a67c-af73fff5bcb4)
+
 
 The image above has been tested using https://validator.w3.org/#validate_by_input and shows errors found in my index.html file. 
 
