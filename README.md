@@ -32,7 +32,8 @@ Users should be able to:
 The image above has been tested using https://validator.w3.org/#validate_by_input and shows errors found in my index.html file. 
 
 # CSS testing 
-![](image-1.png)
+![image](https://github.com/Beaniee2/e-commerce/assets/144044444/efc4f2e8-8a0c-40c2-a124-2821ec3752c8)
+
 
 The image above have been tested using http://jigsaw.w3.org/css-validator/ and shows errors found in my style.css file. 
 
